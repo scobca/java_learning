@@ -15,10 +15,35 @@ public class App {
 //    }
 
     public static void main(String[] args) {
-        int a = 120;
-        String b = "Strings";
+//        int a = 120;
+//        String b = "Strings";
+//
+//        //в модуле 1 чекаем комменты, чисто база
+//        System.out.print(a + " " +b);
 
-        //в модуле 1 чекаем комменты, чисто база
-        System.out.print(a + " " +b);
+        int sm = 114134;
+        int m = 0;
+        int n = 1312;
+        int lastdigit = 0;
+
+        String helloMess = "never_learn_java";
+        String byeMess = "use_Kotlin_please";
+        String intTest = "123";
+
+        m = sm / 100;
+//        System.out.println(m);
+
+        lastdigit = n % 10;
+//        System.out.println(lastdigit);
+//        System.out.println(helloMess);
+
+        System.out.println(helloMess + ", " + byeMess );
+
+        int x = Integer.parseInt(intTest);  //преобразование строки в число
+        System.out.println(x + 1);
+
+        System.out.println(byeMess.length());   //длина строки
+        System.out.println(byeMess.toLowerCase());  //преобразовать к нижнему регистру
+        System.out.println(byeMess.toUpperCase());  //преобразовать к верхнему регистру
     }
 }
