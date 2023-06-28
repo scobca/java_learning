@@ -45,5 +45,14 @@ public class App {
         System.out.println(byeMess.length());   //длина строки
         System.out.println(byeMess.toLowerCase());  //преобразовать к нижнему регистру
         System.out.println(byeMess.toUpperCase());  //преобразовать к верхнему регистру
+
+        demo();
+
+    }
+
+    public static void demo () {
+        String elv = "java not cool";
+
+        System.out.println(elv);
     }
 }
